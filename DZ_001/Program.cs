@@ -3,13 +3,13 @@ int number1 = int.Parse(Console.ReadLine());
 int number2 = int.Parse(Console.ReadLine());
 if (number1 > number2)
 {
-    Console.WriteLine("Большим числом является  " + number1);
-    Console.WriteLine("Наименьше число является  " + number2);
+    Console.WriteLine("Наибольшим числом является  " + number1);
+    Console.WriteLine("Наименьшим числом является  " + number2);
 }
 else if (number2 > number1)
 {
-    Console.WriteLine("Наибольше число является " + number2);
-    Console.WriteLine("Наименьше число является " + number1);
+    Console.WriteLine("Наибольшим числом является " + number2);
+    Console.WriteLine("Наименьшим числом является " + number1);
 }
 else 
 {

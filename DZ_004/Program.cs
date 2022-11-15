@@ -6,7 +6,7 @@ while (number2 <= number)
 
     if (number2 % 2 == 0)
     {
-        Console.Write( number2 + " " );
+        Console.Write( +number2 + " " );
         number2++;
     }
     else
